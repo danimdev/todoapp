@@ -1,0 +1,27 @@
+body
+{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#task-list{
+    list-style-type: none;
+    text-align: start;
+}
+
+li{
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 5px 40px;
+    background-color: aqua;
+    margin-top: 10px;
+    min-width: 25em;
+}
+
+.list-div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
